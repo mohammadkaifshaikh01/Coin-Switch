@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Switch</title>
+    <!-- <link rel="stylesheet" href="Problem3.css"> -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #0f0e0e;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            padding: 10px 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .logo {
+            height: 35px;
+        }
+
+        nav {
+            width: 71%;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            /* background-color: yellow; */
+            margin: 0;
+            padding: 0;
+            align-items: end;
+        }
+
+        nav ul li {
+            cursor: pointer;
+            margin: 0 0 6 36px;
+            padding: 6px;
+            align-items: end;
+            /* font-size: 17px;
+    font-weight: 500; */
+        }
+
+        .login-btn {
+            background-color: #bada55;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        .container img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        .text-content {
+            max-width: 50%;
+            padding-left: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #666;
+        }
+
+        .why-it-matters {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        .why-it-matters h2 {
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            text-align: center;
+            max-width: 200px;
+            margin: 20px;
+        }
+
+        .feature img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .feature p {
+            font-size: 14px;
+            margin-top: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="/Coin Switch/logo.01525825.svg" alt="CoinSwitch Logo" class="logo">
+        <nav>
+            <ul>
+                <li style="font-size: 20px; font-weight: 400;"> 
+                        <label for="op">Problems</label>
+                        <select name="op" id="op" style="border-color: white;" >
+                            <option value="change"></option>
+                            <option value="change"></option>
+                        </select>
+                </li>
+                <li style="font-size: 20px; font-weight: 400;">Coins</li>
+                <li style="font-size: 20px; font-weight: 400;">Ventures</li>
+                <li style="font-size: 20px; font-weight: 400;">Blog</li>
+                <li style="font-size: 20px; font-weight: 400;"> <li style="font-size: 20px; font-weight: 400;"> 
+                    <label for="op">Company</label>
+                    <select name="op" id="55" style="border-color: white;" >
+                        <option value="change"></option>
+                        <option value="change"></option>
+                    </select></li>
+            </ul>
+        </nav>
+        <button class="login-btn">Login To Pro</button>
+    </header>
+    <div class="container">
+        <img src="/Coin Switch/blockchain.webp" alt="Blockchain Illustration">
+        <div class="text-content">
+            <h1>We believe that Web3 and blockchain are the foundations of the new digital, decentralized economy.</h1>
+            <p>To this end, we’re partnering with startups that are advancing the future of Blockchain technology. We
+                provide early stage founders with the capital, network connections and most importantly, the advice they
+                need to transform the Web3 landscape in India.</p>
+        </div>
+    </div>
+    <section class="why-it-matters">
+        <h2>Why it Matters?</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="/Coin Switch/partnership.svg" alt="Partnership with India's largest wealth tech destination">
+                <p>Partnership with India's largest wealth tech destination</p>
+            </div>
+            <div class="feature">
+                <img src="/Coin Switch/network.svg" alt="Access to a network of 70+ global venture capital partners">
+                <p>Access to a network of 70+ global venture capital partners</p>
+            </div>
+            <div class="feature">
+                <img src="/Coin Switch/capital.svg" alt="Capital infusion up to $250,000">
+                <p>Capital infusion up to $250,000</p>
+            </div>
+            <div class="feature">
+                <img src="/Coin Switch/mentorship.svg" alt="Mentorship from in-house experts">
+                <p>Mentorship from in-house experts</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
